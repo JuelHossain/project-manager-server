@@ -44,6 +44,7 @@ router.render = (req, res) => {
   if (path.includes("/messages")) {
     console.log(" message came here");
     if (method === "POST") {
+      console.log("message is posting");
       io.emit("messageAdded", {
         data: res.locals.data,
       });
