@@ -1,5 +1,103 @@
 {
-  "users": [],
-  "conversations": [],
-  "messages": []
+  "users": [
+    {
+      "email": "jrrahman01@gmail.com",
+      "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
+      "name": "Juel Hossain",
+      "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
+      "name": "test",
+      "id": 2
+    },
+    {
+      "email": "test2@test.com",
+      "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
+      "name": "test two",
+      "id": 3
+    },
+    {
+      "email": "test3@test.com",
+      "password": "$2a$10$6YPMUcjMsHT0QQ59vJGZZeFUPPWia.TRgt34B0VkfwewuxKs00he6",
+      "name": "test three",
+      "id": 4
+    },
+    {
+      "email": "test4@test.com",
+      "password": "$2a$10$ZMmCZsdY0mGVHcumQ85AnOxPEVEp1uK4Z8xLwSzYf412m3Wb/IofO",
+      "name": "test four",
+      "id": 5
+    },
+    {
+      "email": "test5@test.com",
+      "password": "$2a$10$ZDxwuOzwp5.lwQafHDtUPucc0j00K6WXckqFQxm0KCYN4/3C8fhxi",
+      "name": "test five",
+      "id": 6
+    },
+    {
+      "email": "test6@test.com",
+      "password": "$2a$10$xY3ZM1bWeSh/FDzaNhDY5egIUtsDUEGQYKGk/AZdPLaUuG1hnjjai",
+      "name": "test six",
+      "id": 7
+    },
+    {
+      "email": "test7@test.com",
+      "password": "$2a$10$Y937a.wcdQSHa4fp4SBpKueH29wAcA.nKizQ2h7H5NOLjeYRdVQEq",
+      "name": "test seven",
+      "id": 8
+    },
+    {
+      "email": "test8@test.com",
+      "password": "$2a$10$M18riF66yKO41hmuC4Mx8evpyLfRpYTZUxGu/NckUYpgPuU5tegce",
+      "name": "test eight",
+      "id": 9
+    },
+    {
+      "email": "test9@test.com",
+      "password": "$2a$10$p9LUI1tT/AkSt.H76K6Bze85AONyRMAl07fc6Pd/sLlOUFSA15NfK",
+      "name": "test nine",
+      "id": 10
+    },
+    {
+      "email": "test10@test.com",
+      "password": "$2a$10$xgOouWcuN6FMPx6DfFCimeVZGo7Lnk5CX.zd5KLpGEvHVSvUfPzHq",
+      "name": "test ten",
+      "id": 11
+    }
+  ],
+  "teams": [
+    {
+      "name": "asfasdfasdf",
+      "about": "sadfasdfasdfasdf",
+      "color": "lime",
+      "members": [
+        {
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        }
+      ],
+      "createdBy": "jrrahman01@gmail.com",
+      "createdAt": "Sep 18",
+      "id": 1
+    },
+    {
+      "name": "asdfasdfasdf",
+      "about": "dfasdfsadfasdf",
+      "color": "lime",
+      "members": [
+        {
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        }
+      ],
+      "createdBy": "jrrahman01@gmail.com",
+      "createdAt": "Sep 18",
+      "id": 2
+    }
+  ],
+  "projects": []
 }

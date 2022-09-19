@@ -1,75 +1,24 @@
 const auth = require("json-server-auth");
 const jsonServer = require("json-server");
-const express = require("express");
-const http = require("http");
 const cors = require("cors");
-const app = express();
-app.use(
-  cors({
-    origin: "*",
-    methods: ["GET", "POST", "PATCH"],
-    credentials: true,
-  })
-);
-const server = http.createServer(app);
-const io = require("socket.io")(server, {
-  cors: {
-    origin: "*",
-    methods: ["GET", "POST", "PATCH"],
-    credentials: true,
-  },
-});
-
-global.io = io;
-
-const router = jsonServer.router("db.json");
-
-// response middleware
-router.render = (req, res) => {
-  const path = req.path;
-  const method = req.method;
-
-  if (path.includes("/conversations")) {
-    if (method === "PATCH") {
-      // emit socket event
-      io.emit("conversationEdited", {
-        data: res.locals.data,
-      });
-    } else if (method === "POST") {
-      io.emit("conversationAdded", {
-        data: res.locals.data,
-      });
-    }
-  }
-  if (path.includes("/messages")) {
-    console.log(" message came here");
-    if (method === "POST") {
-      console.log("message is posting");
-      io.emit("messageAdded", {
-        data: res.locals.data,
-      });
-    }
-  }
-
-  res.json(res.locals.data);
-};
-
-const middlewares = jsonServer.defaults({ noCors: true });
 const port = process.env.PORT || 9000;
 
-// Bind the router db to the app
-app.db = router.db;
+const server = jsonServer.create();
+server.use(cors());
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
 
-app.use(middlewares);
+// Bind the router db to the app
+server.db = router.db;
 
 const rules = auth.rewriter({
   users: 640,
-  conversations: 660,
-  messages: 660,
+  teams: 660,
+  projects: 660,
 });
-
-app.use(rules);
-app.use(auth);
-app.use(router);
+server.use(middlewares);
+server.use(rules);
+server.use(auth);
+server.use(router);
 
 server.listen(port);
