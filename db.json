@@ -69,9 +69,12 @@
   ],
   "teams": [
     {
-      "name": "asfasdfasdf",
-      "about": "sadfasdfasdfasdf",
-      "color": "lime",
+      "name": "asdfasdf",
+      "about": "asdfasdfasdf",
+      "color": {
+        "backgroundColor": "rgb(217,70,239,0.2)",
+        "color": "rgb(217,70,239,1)"
+      },
       "members": [
         {
           "email": "jrrahman01@gmail.com",
@@ -80,22 +83,31 @@
         }
       ],
       "createdBy": "jrrahman01@gmail.com",
-      "createdAt": "Sep 18",
+      "createdAt": "Sep 20",
       "id": 1
     },
     {
-      "name": "asdfasdfasdf",
-      "about": "dfasdfsadfasdf",
-      "color": "lime",
+      "name": "asdfasdf",
+      "about": "sadfasdfasd",
+      "color": {
+        "backgroundColor": "rgb(139,92,246,0.2)",
+        "color": "rgb(139,92,246,1)"
+      },
       "members": [
         {
           "email": "jrrahman01@gmail.com",
           "name": "Juel Hossain",
           "id": 1
+        },
+        {
+          "email": "test10@test.com",
+          "password": "$2a$10$xgOouWcuN6FMPx6DfFCimeVZGo7Lnk5CX.zd5KLpGEvHVSvUfPzHq",
+          "name": "test ten",
+          "id": 11
         }
       ],
       "createdBy": "jrrahman01@gmail.com",
-      "createdAt": "Sep 18",
+      "createdAt": "Sep 20",
       "id": 2
     }
   ],
