@@ -12,7 +12,7 @@ const middlewares = jsonServer.defaults();
 server.db = router.db;
 
 const rules = auth.rewriter({
-  users: 640,
+  users: 664,
   teams: 660,
   projects: 660,
 });

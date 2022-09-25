@@ -21,57 +21,169 @@
     },
     {
       "email": "test3@test.com",
-      "password": "$2a$10$6YPMUcjMsHT0QQ59vJGZZeFUPPWia.TRgt34B0VkfwewuxKs00he6",
-      "name": "test three",
-      "id": 4
+      "password": "$2a$10$SJyhf.CpyQlz8MGZM6m0ruMSs6H0c3Pup.jcARDNZ8z/MaUwovuSO",
+      "name": "test3",
+      "id": 13
     },
     {
       "email": "test4@test.com",
-      "password": "$2a$10$ZMmCZsdY0mGVHcumQ85AnOxPEVEp1uK4Z8xLwSzYf412m3Wb/IofO",
-      "name": "test four",
-      "id": 5
+      "password": "$2a$10$2HwIg/xfesvDjOuCuqOImOMuCRtIubpqbeLLNPcwguXIKlk4VCdnq",
+      "name": "test4",
+      "id": 14
     },
     {
       "email": "test5@test.com",
-      "password": "$2a$10$ZDxwuOzwp5.lwQafHDtUPucc0j00K6WXckqFQxm0KCYN4/3C8fhxi",
-      "name": "test five",
-      "id": 6
+      "password": "$2a$10$.6dHI7ZHicJ2UV32VA4T5.bZGaq98dU.QXCSyNz7bV05XlUQGisw2",
+      "name": "test5",
+      "id": 15
+    },
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$YtRU2LAePM/bzXez/SwmYeIDLWFvc5/gST9pvBwVfePLnkCuBZyxq",
+      "name": "admin",
+      "admin": true,
+      "id": 16
     },
     {
       "email": "test6@test.com",
-      "password": "$2a$10$xY3ZM1bWeSh/FDzaNhDY5egIUtsDUEGQYKGk/AZdPLaUuG1hnjjai",
-      "name": "test six",
-      "id": 7
+      "password": "$2a$10$XHdZ35UQOw/FGkLbKpO/W.Lz0fi/r6.FZHUxfSr2qF2FDM4qcCFEC",
+      "name": "test6",
+      "id": 17
     },
     {
       "email": "test7@test.com",
-      "password": "$2a$10$Y937a.wcdQSHa4fp4SBpKueH29wAcA.nKizQ2h7H5NOLjeYRdVQEq",
-      "name": "test seven",
-      "id": 8
-    },
-    {
-      "email": "test8@test.com",
-      "password": "$2a$10$M18riF66yKO41hmuC4Mx8evpyLfRpYTZUxGu/NckUYpgPuU5tegce",
-      "name": "test eight",
-      "id": 9
-    },
-    {
-      "email": "test9@test.com",
-      "password": "$2a$10$p9LUI1tT/AkSt.H76K6Bze85AONyRMAl07fc6Pd/sLlOUFSA15NfK",
-      "name": "test nine",
-      "id": 10
-    },
-    {
-      "email": "test10@test.com",
-      "password": "$2a$10$xgOouWcuN6FMPx6DfFCimeVZGo7Lnk5CX.zd5KLpGEvHVSvUfPzHq",
-      "name": "test ten",
-      "id": 11
+      "password": "$2a$10$CNI45WttELjjy0XiFCiuU.L.mfFlkJrnO383lGCfbpsRraCm6JxDy",
+      "name": "test7",
+      "id": 18
     }
   ],
   "teams": [
     {
-      "name": "as;ldfkja;sldjf",
-      "about": "aslkjdflaskjdfl;kjsd",
+      "name": "Design",
+      "about": "This is Design Team",
+      "color": {
+        "50": "#faf5ff",
+        "100": "#f3e8ff",
+        "200": "#e9d5ff",
+        "300": "#d8b4fe",
+        "400": "#c084fc",
+        "500": "#a855f7",
+        "600": "#9333ea",
+        "700": "#7e22ce",
+        "800": "#6b21a8",
+        "900": "#581c87",
+        "name": "purple",
+        "common": {
+          "backgroundColor": "#f3e8ff",
+          "color": "#a855f7"
+        }
+      },
+      "members": [
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
+          "name": "test",
+          "id": 2
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
+          "name": "test two",
+          "id": 3
+        }
+      ],
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "createdAt": "Sep 25",
+      "id": 2
+    },
+    {
+      "name": "programmer",
+      "about": "this is programmer team",
+      "color": {
+        "50": "#eff6ff",
+        "100": "#dbeafe",
+        "200": "#bfdbfe",
+        "300": "#93c5fd",
+        "400": "#60a5fa",
+        "500": "#3b82f6",
+        "600": "#2563eb",
+        "700": "#1d4ed8",
+        "800": "#1e40af",
+        "900": "#1e3a8a",
+        "name": "blue",
+        "common": {
+          "backgroundColor": "#dbeafe",
+          "color": "#3b82f6"
+        }
+      },
+      "members": [
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        }
+      ],
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "createdAt": "Sep 25",
+      "id": 3
+    },
+    {
+      "name": "Marketting ",
+      "about": "This is marketing team",
+      "color": {
+        "50": "#fbe9e7",
+        "100": "#ffccbc",
+        "200": "#ffab91",
+        "300": "#ff8a65",
+        "400": "#ff7043",
+        "500": "#ff5722",
+        "600": "#f4511e",
+        "700": "#e64a19",
+        "800": "#d84315",
+        "900": "#bf360c",
+        "name": "deep-orange",
+        "common": {
+          "backgroundColor": "#ffccbc",
+          "color": "#ff5722"
+        }
+      },
+      "members": [
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        }
+      ],
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "createdAt": "Sep 25",
+      "id": 4
+    },
+    {
+      "name": "testing",
+      "about": "this is testing team",
       "color": {
         "50": "#eef2ff",
         "100": "#e0e7ff",
@@ -91,22 +203,164 @@
       },
       "members": [
         {
+          "admin": true,
           "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
+          "name": "test",
+          "id": 2
+        }
+      ],
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "createdAt": "Sep 25",
+      "id": 5
+    },
+    {
+      "name": "sales",
+      "about": "this is sales team",
+      "color": {
+        "50": "#faf5ff",
+        "100": "#f3e8ff",
+        "200": "#e9d5ff",
+        "300": "#d8b4fe",
+        "400": "#c084fc",
+        "500": "#a855f7",
+        "600": "#9333ea",
+        "700": "#7e22ce",
+        "800": "#6b21a8",
+        "900": "#581c87",
+        "name": "purple",
+        "common": {
+          "backgroundColor": "#f3e8ff",
+          "color": "#a855f7"
+        }
+      },
+      "members": [
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
+          "name": "test",
+          "id": 2
+        }
+      ],
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "createdAt": "Sep 25",
+      "id": 6
+    },
+    {
+      "name": "Dev",
+      "about": "this is dev team",
+      "color": {
+        "50": "#efebe9",
+        "100": "#d7ccc8",
+        "200": "#bcaaa4",
+        "300": "#a1887f",
+        "400": "#8d6e63",
+        "500": "#795548",
+        "600": "#6d4c41",
+        "700": "#5d4037",
+        "800": "#4e342e",
+        "900": "#3e2723",
+        "name": "brown",
+        "common": {
+          "backgroundColor": "#d7ccc8",
+          "color": "#795548"
+        }
+      },
+      "members": [
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
+          "name": "test",
+          "id": 2
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
+          "name": "test two",
+          "id": 3
+        }
+      ],
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "createdAt": "Sep 25",
+      "id": 7
+    },
+    {
+      "name": "Haider",
+      "about": "this is the team haider",
+      "color": {
+        "50": "#f9fafb",
+        "100": "#f3f4f6",
+        "200": "#e5e7eb",
+        "300": "#d1d5db",
+        "400": "#9ca3af",
+        "500": "#6b7280",
+        "600": "#4b5563",
+        "700": "#374151",
+        "800": "#1f2937",
+        "900": "#111827",
+        "name": "gray",
+        "common": {
+          "backgroundColor": "#f3f4f6",
+          "color": "#6b7280"
+        }
+      },
+      "members": [
+        {
+          "email": "admin@admin.com",
+          "name": "admin",
+          "id": 16
+        },
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
           "name": "Juel Hossain",
           "id": 1
         }
       ],
       "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
+        "email": "admin@admin.com",
+        "name": "admin",
+        "id": 16
       },
-      "createdAt": "Sep 21",
-      "id": 4
+      "createdAt": "Sep 25",
+      "id": 8
     },
     {
-      "name": "as;ldfkja;slkjfl;",
-      "about": "aaksjdflkasdlf;kj;asdfasdfasdf",
+      "name": "greetings",
+      "about": "this is the team greetings",
       "color": {
         "50": "#f0fdf4",
         "100": "#dcfce7",
@@ -126,52 +380,12 @@
       },
       "members": [
         {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        }
-      ],
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "createdAt": "Sep 21",
-      "id": 5
-    },
-    {
-      "name": "testing Team",
-      "about": "we are the best team in this company",
-      "color": {
-        "50": "#f8fafc",
-        "100": "#f1f5f9",
-        "200": "#e2e8f0",
-        "300": "#cbd5e1",
-        "400": "#94a3b8",
-        "500": "#64748b",
-        "600": "#475569",
-        "700": "#334155",
-        "800": "#1e293b",
-        "900": "#0f172a",
-        "name": "blue-gray",
-        "common": {
-          "backgroundColor": "#f1f5f9",
-          "color": "#64748b"
-        }
-      },
-      "members": [
-        {
-          "email": "test@test.com",
-          "name": "test",
-          "id": 2
-        },
-        {
           "email": "test2@test.com",
-          "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
           "name": "test two",
           "id": 3
         },
         {
+          "admin": true,
           "email": "jrrahman01@gmail.com",
           "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
           "name": "Juel Hossain",
@@ -179,51 +393,16 @@
         }
       ],
       "createdBy": {
-        "email": "test@test.com",
-        "name": "test",
-        "id": 2
+        "email": "test2@test.com",
+        "name": "test two",
+        "id": 3
       },
-      "createdAt": "Sep 21",
-      "id": 6
+      "createdAt": "Sep 25",
+      "id": 9
     },
     {
-      "name": "aSDasd",
-      "about": "asdfasdfsadfasdf",
-      "color": {
-        "50": "#fdf2f8",
-        "100": "#fce7f3",
-        "200": "#fbcfe8",
-        "300": "#f9a8d4",
-        "400": "#f472b6",
-        "500": "#ec4899",
-        "600": "#db2777",
-        "700": "#be185d",
-        "800": "#9d174d",
-        "900": "#831843",
-        "name": "pink",
-        "common": {
-          "backgroundColor": "#fce7f3",
-          "color": "#ec4899"
-        }
-      },
-      "members": [
-        {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        }
-      ],
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "createdAt": "Sep 22",
-      "id": 7
-    },
-    {
-      "name": "asdfasdf",
-      "about": "asdfasdfasdf",
+      "name": "Manohar",
+      "about": "hello this is the team manohar",
       "color": {
         "50": "#fef2f2",
         "100": "#fee2e2",
@@ -243,267 +422,75 @@
       },
       "members": [
         {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        }
-      ],
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "createdAt": "Sep 22",
-      "id": 8
-    },
-    {
-      "name": "asdasd",
-      "about": "sadfasdfasdf",
-      "color": {
-        "50": "#eff6ff",
-        "100": "#dbeafe",
-        "200": "#bfdbfe",
-        "300": "#93c5fd",
-        "400": "#60a5fa",
-        "500": "#3b82f6",
-        "600": "#2563eb",
-        "700": "#1d4ed8",
-        "800": "#1e40af",
-        "900": "#1e3a8a",
-        "name": "blue",
-        "common": {
-          "backgroundColor": "#dbeafe",
-          "color": "#3b82f6"
-        }
-      },
-      "members": [
+          "email": "test@test.com",
+          "name": "test",
+          "id": 2
+        },
         {
+          "admin": true,
           "email": "jrrahman01@gmail.com",
+          "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
           "name": "Juel Hossain",
           "id": 1
         }
       ],
       "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
+        "email": "test@test.com",
+        "name": "test",
+        "id": 2
       },
-      "createdAt": "Sep 22",
-      "id": 9
-    },
-    {
-      "name": "asdasda",
-      "about": "asdfasdfasdfasdfsd",
-      "color": {
-        "50": "#eff6ff",
-        "100": "#dbeafe",
-        "200": "#bfdbfe",
-        "300": "#93c5fd",
-        "400": "#60a5fa",
-        "500": "#3b82f6",
-        "600": "#2563eb",
-        "700": "#1d4ed8",
-        "800": "#1e40af",
-        "900": "#1e3a8a",
-        "name": "blue",
-        "common": {
-          "backgroundColor": "#dbeafe",
-          "color": "#3b82f6"
-        }
-      },
-      "members": [
-        {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        }
-      ],
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "createdAt": "Sep 22",
+      "createdAt": "Sep 25",
       "id": 10
+    },
+    {
+      "name": "Miracle",
+      "about": "hello dear this is team miracle",
+      "color": {
+        "50": "#ecfeff",
+        "100": "#cffafe",
+        "200": "#a5f3fc",
+        "300": "#67e8f9",
+        "400": "#22d3ee",
+        "500": "#06b6d4",
+        "600": "#0891b2",
+        "700": "#0e7490",
+        "800": "#155e75",
+        "900": "#164e63",
+        "name": "cyan",
+        "common": {
+          "backgroundColor": "#cffafe",
+          "color": "#06b6d4"
+        }
+      },
+      "members": [
+        {
+          "email": "test@test.com",
+          "name": "test",
+          "id": 2
+        },
+        {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
+          "name": "Juel Hossain",
+          "id": 1
+        }
+      ],
+      "createdBy": {
+        "email": "test@test.com",
+        "name": "test",
+        "id": 2
+      },
+      "createdAt": "Sep 25",
+      "id": 11
     }
   ],
   "projects": [
     {
-      "title": "fd;laskjdflajksd;fljk;ls",
+      "title": "Design a multipage project application",
       "team": {
-        "name": "saf;asdlkfj;aslkdjf",
-        "about": "asldkfjal;skdjf;lkajsd;flkjas;ldkfj;lasdkjflkasdf",
-        "color": {
-          "50": "#fbe9e7",
-          "100": "#ffccbc",
-          "200": "#ffab91",
-          "300": "#ff8a65",
-          "400": "#ff7043",
-          "500": "#ff5722",
-          "600": "#f4511e",
-          "700": "#e64a19",
-          "800": "#d84315",
-          "900": "#bf360c",
-          "name": "deep-orange",
-          "common": {
-            "backgroundColor": "#ffccbc",
-            "color": "#ff5722"
-          }
-        },
-        "members": [
-          {
-            "email": "jrrahman01@gmail.com",
-            "name": "Juel Hossain",
-            "id": 1
-          },
-          {
-            "email": "test@test.com",
-            "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
-            "name": "test",
-            "id": 2
-          },
-          {
-            "email": "test2@test.com",
-            "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
-            "name": "test two",
-            "id": 3
-          },
-          {
-            "email": "test3@test.com",
-            "password": "$2a$10$6YPMUcjMsHT0QQ59vJGZZeFUPPWia.TRgt34B0VkfwewuxKs00he6",
-            "name": "test three",
-            "id": 4
-          }
-        ],
-        "createdBy": {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        },
-        "createdAt": "Sep 21",
-        "id": 3
-      },
-      "createdAt": "Sep 21",
-      "createdBy": {
-        "email": "test@test.com",
-        "name": "test",
-        "id": 2
-      },
-      "section": "review",
-      "id": 2,
-      "pSection": "ready"
-    },
-    {
-      "title": "as;fdja;sldjf;lasdjkf",
-      "team": {
-        "name": "testing Team",
-        "about": "we are the best team in this company",
-        "color": {
-          "50": "#f8fafc",
-          "100": "#f1f5f9",
-          "200": "#e2e8f0",
-          "300": "#cbd5e1",
-          "400": "#94a3b8",
-          "500": "#64748b",
-          "600": "#475569",
-          "700": "#334155",
-          "800": "#1e293b",
-          "900": "#0f172a",
-          "name": "blue-gray",
-          "common": {
-            "backgroundColor": "#f1f5f9",
-            "color": "#64748b"
-          }
-        },
-        "members": [
-          {
-            "email": "test@test.com",
-            "name": "test",
-            "id": 2
-          }
-        ],
-        "createdBy": {
-          "email": "test@test.com",
-          "name": "test",
-          "id": 2
-        },
-        "createdAt": "Sep 21",
-        "id": 6
-      },
-      "createdAt": "Sep 21",
-      "createdBy": {
-        "email": "test@test.com",
-        "name": "test",
-        "id": 2
-      },
-      "section": "blocked",
-      "id": 3,
-      "pSection": "backlog"
-    },
-    {
-      "title": "asldkfskdfksdfkaskdf asdfkjasldfj asdfkjasdfk",
-      "team": {
-        "name": "testing Team",
-        "about": "we are the best team in this company",
-        "color": {
-          "50": "#f8fafc",
-          "100": "#f1f5f9",
-          "200": "#e2e8f0",
-          "300": "#cbd5e1",
-          "400": "#94a3b8",
-          "500": "#64748b",
-          "600": "#475569",
-          "700": "#334155",
-          "800": "#1e293b",
-          "900": "#0f172a",
-          "name": "blue-gray",
-          "common": {
-            "backgroundColor": "#f1f5f9",
-            "color": "#64748b"
-          }
-        },
-        "members": [
-          {
-            "email": "test@test.com",
-            "name": "test",
-            "id": 2
-          },
-          {
-            "email": "test2@test.com",
-            "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
-            "name": "test two",
-            "id": 3
-          },
-          {
-            "email": "jrrahman01@gmail.com",
-            "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
-            "name": "Juel Hossain",
-            "id": 1
-          }
-        ],
-        "createdBy": {
-          "email": "test@test.com",
-          "name": "test",
-          "id": 2
-        },
-        "createdAt": "Sep 21",
-        "id": 6
-      },
-      "createdAt": "Sep 22",
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "section": "backlog",
-      "id": 5,
-      "pSection": "backlog"
-    },
-    {
-      "title": "dsfasdf asdfasdf asdfasdf",
-      "team": {
-        "name": "saf;asdlkfj;aslkdjf",
-        "about": "asldkfjal;skdjf;lkajsd;flkjas;ldkfj;lasdkjflkasdf",
+        "name": "Design",
+        "about": "This is Design Team",
         "color": {
           "50": "#faf5ff",
           "100": "#f3e8ff",
@@ -523,6 +510,7 @@
         },
         "members": [
           {
+            "admin": true,
             "email": "jrrahman01@gmail.com",
             "name": "Juel Hossain",
             "id": 1
@@ -538,102 +526,52 @@
             "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
             "name": "test two",
             "id": 3
-          },
-          {
-            "email": "test3@test.com",
-            "password": "$2a$10$6YPMUcjMsHT0QQ59vJGZZeFUPPWia.TRgt34B0VkfwewuxKs00he6",
-            "name": "test three",
-            "id": 4
           }
         ],
         "createdBy": {
+          "admin": true,
           "email": "jrrahman01@gmail.com",
           "name": "Juel Hossain",
           "id": 1
         },
-        "createdAt": "Sep 21",
-        "id": 3
+        "createdAt": "Sep 25",
+        "id": 2
       },
-      "createdAt": "Sep 22",
+      "createdAt": "Sep 25",
       "createdBy": {
+        "admin": true,
         "email": "jrrahman01@gmail.com",
         "name": "Juel Hossain",
         "id": 1
       },
       "section": "backlog",
-      "id": 6,
-      "pSection": "ready"
+      "id": 1
     },
     {
-      "title": "hello brother how are you ",
+      "title": "test the bluewhale projects",
       "team": {
-        "name": "as;ldfkja;sldjf",
-        "about": "aslkjdflaskjdfl;kjsd",
+        "name": "testing",
+        "about": "this is testing team",
         "color": {
-          "50": "#fdf2f8",
-          "100": "#fce7f3",
-          "200": "#fbcfe8",
-          "300": "#f9a8d4",
-          "400": "#f472b6",
-          "500": "#ec4899",
-          "600": "#db2777",
-          "700": "#be185d",
-          "800": "#9d174d",
-          "900": "#831843",
-          "name": "pink",
+          "50": "#eef2ff",
+          "100": "#e0e7ff",
+          "200": "#c7d2fe",
+          "300": "#a5b4fc",
+          "400": "#818cf8",
+          "500": "#6366f1",
+          "600": "#4f46e5",
+          "700": "#4338ca",
+          "800": "#3730a3",
+          "900": "#312e81",
+          "name": "indigo",
           "common": {
-            "backgroundColor": "#fce7f3",
-            "color": "#ec4899"
+            "backgroundColor": "#e0e7ff",
+            "color": "#6366f1"
           }
         },
         "members": [
           {
-            "email": "jrrahman01@gmail.com",
-            "name": "Juel Hossain",
-            "id": 1
-          }
-        ],
-        "createdBy": {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        },
-        "createdAt": "Sep 21",
-        "id": 4
-      },
-      "createdAt": "Sep 22",
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "section": "ready",
-      "id": 7
-    },
-    {
-      "title": "asdfasdfas asdfasdfasdf asdfasdfasdf asdfasfd",
-      "team": {
-        "name": "saf;asdlkfj;aslkdjf",
-        "about": "asldkfjal;skdjf;lkajsd;flkjas;ldkfj;lasdkjflkasdf",
-        "color": {
-          "50": "#fbe9e7",
-          "100": "#ffccbc",
-          "200": "#ffab91",
-          "300": "#ff8a65",
-          "400": "#ff7043",
-          "500": "#ff5722",
-          "600": "#f4511e",
-          "700": "#e64a19",
-          "800": "#d84315",
-          "900": "#bf360c",
-          "name": "deep-orange",
-          "common": {
-            "backgroundColor": "#ffccbc",
-            "color": "#ff5722"
-          }
-        },
-        "members": [
-          {
+            "admin": true,
             "email": "jrrahman01@gmail.com",
             "name": "Juel Hossain",
             "id": 1
@@ -643,218 +581,59 @@
             "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
             "name": "test",
             "id": 2
-          },
-          {
-            "email": "test2@test.com",
-            "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
-            "name": "test two",
-            "id": 3
-          },
-          {
-            "email": "test3@test.com",
-            "password": "$2a$10$6YPMUcjMsHT0QQ59vJGZZeFUPPWia.TRgt34B0VkfwewuxKs00he6",
-            "name": "test three",
-            "id": 4
           }
         ],
         "createdBy": {
+          "admin": true,
           "email": "jrrahman01@gmail.com",
           "name": "Juel Hossain",
           "id": 1
         },
-        "createdAt": "Sep 21",
-        "id": 3
-      },
-      "createdAt": "Sep 22",
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "section": "doing",
-      "id": 8
-    },
-    {
-      "title": "asdfasdfasdfasdf",
-      "team": {
-        "name": "saf;asdlkfj;aslkdjf",
-        "about": "asldkfjal;skdjf;lkajsd;flkjas;ldkfj;lasdkjflkasdf",
-        "color": {
-          "50": "#fbe9e7",
-          "100": "#ffccbc",
-          "200": "#ffab91",
-          "300": "#ff8a65",
-          "400": "#ff7043",
-          "500": "#ff5722",
-          "600": "#f4511e",
-          "700": "#e64a19",
-          "800": "#d84315",
-          "900": "#bf360c",
-          "name": "deep-orange",
-          "common": {
-            "backgroundColor": "#ffccbc",
-            "color": "#ff5722"
-          }
-        },
-        "members": [
-          {
-            "email": "jrrahman01@gmail.com",
-            "name": "Juel Hossain",
-            "id": 1
-          },
-          {
-            "email": "test@test.com",
-            "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
-            "name": "test",
-            "id": 2
-          },
-          {
-            "email": "test2@test.com",
-            "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
-            "name": "test two",
-            "id": 3
-          },
-          {
-            "email": "test3@test.com",
-            "password": "$2a$10$6YPMUcjMsHT0QQ59vJGZZeFUPPWia.TRgt34B0VkfwewuxKs00he6",
-            "name": "test three",
-            "id": 4
-          }
-        ],
-        "createdBy": {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        },
-        "createdAt": "Sep 21",
-        "id": 3
-      },
-      "createdAt": "Sep 22",
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "section": "backlog",
-      "id": 9
-    },
-    {
-      "title": "asdfasdfasdfasdfasdfasdf",
-      "team": {
-        "name": "as;ldfkja;slkjfl;",
-        "about": "aaksjdflkasdlf;kj;asdfasdfasdf",
-        "color": {
-          "50": "#fdf2f8",
-          "100": "#fce7f3",
-          "200": "#fbcfe8",
-          "300": "#f9a8d4",
-          "400": "#f472b6",
-          "500": "#ec4899",
-          "600": "#db2777",
-          "700": "#be185d",
-          "800": "#9d174d",
-          "900": "#831843",
-          "name": "pink",
-          "common": {
-            "backgroundColor": "#fce7f3",
-            "color": "#ec4899"
-          }
-        },
-        "members": [
-          {
-            "email": "jrrahman01@gmail.com",
-            "name": "Juel Hossain",
-            "id": 1
-          }
-        ],
-        "createdBy": {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        },
-        "createdAt": "Sep 21",
+        "createdAt": "Sep 25",
         "id": 5
       },
-      "createdAt": "Sep 22",
+      "createdAt": "Sep 25",
       "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "section": "ready",
-      "id": 10
-    },
-    {
-      "title": "asfasdfasfasdfasdf",
-      "team": {
-        "name": "as;ldfkja;sldjf",
-        "about": "aslkjdflaskjdfl;kjsd",
-        "color": {
-          "50": "#fbe9e7",
-          "100": "#ffccbc",
-          "200": "#ffab91",
-          "300": "#ff8a65",
-          "400": "#ff7043",
-          "500": "#ff5722",
-          "600": "#f4511e",
-          "700": "#e64a19",
-          "800": "#d84315",
-          "900": "#bf360c",
-          "name": "deep-orange",
-          "common": {
-            "backgroundColor": "#ffccbc",
-            "color": "#ff5722"
-          }
-        },
-        "members": [
-          {
-            "email": "jrrahman01@gmail.com",
-            "name": "Juel Hossain",
-            "id": 1
-          }
-        ],
-        "createdBy": {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        },
-        "createdAt": "Sep 21",
-        "id": 4
-      },
-      "createdAt": "Sep 22",
-      "createdBy": {
+        "admin": true,
         "email": "jrrahman01@gmail.com",
         "name": "Juel Hossain",
         "id": 1
       },
       "section": "review",
-      "id": 11
+      "id": 3
     },
     {
-      "title": "asdfasdf;asdkfljasdfjasdf",
+      "title": "please develop a project ",
       "team": {
-        "name": "testing Team",
-        "about": "we are the best team in this company",
+        "name": "Dev",
+        "about": "this is dev team",
         "color": {
-          "50": "#f8fafc",
-          "100": "#f1f5f9",
-          "200": "#e2e8f0",
-          "300": "#cbd5e1",
-          "400": "#94a3b8",
-          "500": "#64748b",
-          "600": "#475569",
-          "700": "#334155",
-          "800": "#1e293b",
-          "900": "#0f172a",
-          "name": "blue-gray",
+          "50": "#efebe9",
+          "100": "#d7ccc8",
+          "200": "#bcaaa4",
+          "300": "#a1887f",
+          "400": "#8d6e63",
+          "500": "#795548",
+          "600": "#6d4c41",
+          "700": "#5d4037",
+          "800": "#4e342e",
+          "900": "#3e2723",
+          "name": "brown",
           "common": {
-            "backgroundColor": "#f1f5f9",
-            "color": "#64748b"
+            "backgroundColor": "#d7ccc8",
+            "color": "#795548"
           }
         },
         "members": [
           {
+            "admin": true,
+            "email": "jrrahman01@gmail.com",
+            "name": "Juel Hossain",
+            "id": 1
+          },
+          {
             "email": "test@test.com",
+            "password": "$2a$10$7F8kzpLP7OZQGPbAbI1tSu00XGLGUts1zJvMvjh/8ApBdKp6qchke",
             "name": "test",
             "id": 2
           },
@@ -863,8 +642,57 @@
             "password": "$2a$10$YqnXJMW8r2Zc7soWmItLsOuhUHCyz0jI5xRSQrpQTOLkxoArATIK6",
             "name": "test two",
             "id": 3
+          }
+        ],
+        "createdBy": {
+          "admin": true,
+          "email": "jrrahman01@gmail.com",
+          "name": "Juel Hossain",
+          "id": 1
+        },
+        "createdAt": "Sep 25",
+        "id": 7
+      },
+      "createdAt": "Sep 25",
+      "createdBy": {
+        "admin": true,
+        "email": "jrrahman01@gmail.com",
+        "name": "Juel Hossain",
+        "id": 1
+      },
+      "section": "backlog",
+      "id": 4
+    },
+    {
+      "title": "Starting the project haider",
+      "team": {
+        "name": "Haider",
+        "about": "this is the team haider",
+        "color": {
+          "50": "#f9fafb",
+          "100": "#f3f4f6",
+          "200": "#e5e7eb",
+          "300": "#d1d5db",
+          "400": "#9ca3af",
+          "500": "#6b7280",
+          "600": "#4b5563",
+          "700": "#374151",
+          "800": "#1f2937",
+          "900": "#111827",
+          "name": "gray",
+          "common": {
+            "backgroundColor": "#f3f4f6",
+            "color": "#6b7280"
+          }
+        },
+        "members": [
+          {
+            "email": "admin@admin.com",
+            "name": "admin",
+            "id": 16
           },
           {
+            "admin": true,
             "email": "jrrahman01@gmail.com",
             "password": "$2a$10$mu7ih9ZMKI3aqxeX915vH.HoQioHBgTgJ4.S9N69IfQ3dWORIUhFK",
             "name": "Juel Hossain",
@@ -872,67 +700,21 @@
           }
         ],
         "createdBy": {
-          "email": "test@test.com",
-          "name": "test",
-          "id": 2
+          "email": "admin@admin.com",
+          "name": "admin",
+          "id": 16
         },
-        "createdAt": "Sep 21",
-        "id": 6
-      },
-      "createdAt": "Sep 22",
-      "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
-      },
-      "section": "doing",
-      "id": 12
-    },
-    {
-      "title": "asdf;asdf asdfkjasdfas asdfkasdf",
-      "team": {
-        "name": "asdfasdf",
-        "about": "asdfasdfasdf",
-        "color": {
-          "50": "#fef2f2",
-          "100": "#fee2e2",
-          "200": "#fecaca",
-          "300": "#fca5a5",
-          "400": "#f87171",
-          "500": "#ef4444",
-          "600": "#dc2626",
-          "700": "#b91c1c",
-          "800": "#991b1b",
-          "900": "#7f1d1d",
-          "name": "red",
-          "common": {
-            "backgroundColor": "#fee2e2",
-            "color": "#ef4444"
-          }
-        },
-        "members": [
-          {
-            "email": "jrrahman01@gmail.com",
-            "name": "Juel Hossain",
-            "id": 1
-          }
-        ],
-        "createdBy": {
-          "email": "jrrahman01@gmail.com",
-          "name": "Juel Hossain",
-          "id": 1
-        },
-        "createdAt": "Sep 22",
+        "createdAt": "Sep 25",
         "id": 8
       },
-      "createdAt": "Sep 22",
+      "createdAt": "Sep 25",
       "createdBy": {
-        "email": "jrrahman01@gmail.com",
-        "name": "Juel Hossain",
-        "id": 1
+        "email": "admin@admin.com",
+        "name": "admin",
+        "id": 16
       },
       "section": "backlog",
-      "id": 13
+      "id": 5
     }
   ]
 }
